@@ -22,12 +22,10 @@ Construire un Data Warehouse complet et moderne, en suivant toutes les étapes d
 
 ## Organisation du dépôt
 
-- `/postgres/` : scripts SQL pour créer les tables sources et charger des jeux de données exemples
+- `/scripts/` : scripts SQL pour créer les tables sources et charger des jeux de données exemples
 - `/data/` : dumps CSV, extraits de données si besoin
 - `/notebooks/` : notebooks Jupyter/PySpark pour chaque étape du pipeline
-- `/pyspark/` : scripts principaux de traitement par couches (bronze, silver, gold, SCD2, Data Vault, etc.)
-- `/delta_lake/` : scripts pour tests ACID/Time Travel, captures d’écran du Lakehouse, etc.
-- `/schema/` : diagrammes d’architecture, lakehouse, dataflow, etc.
+- `/images/` : diagrammes d’architecture, lakehouse, dataflow, etc.
 - `rapport.pdf` : rapport décrivant toutes les étapes, choix techniques, difficultés
 
 ## Instructions d’exécution
